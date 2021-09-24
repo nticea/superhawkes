@@ -229,7 +229,7 @@ class DiscreteTimeStandardHawkesModel(object):
         """
         Compute the rate of the k-th process.
 
-        :param index:   Which dataset to comput the rate of
+        :param index:   Which dataset to compute the rate of
         :param k:       Which process to compute the rate of
         :return:
         """
@@ -848,7 +848,6 @@ class _DiscreteTimeNetworkHawkesModelBase(object):
             # Xs = [X[:T,:] for X in Xs]
             # data = np.hstack(Xs + [S])
             self.add_data(S)
-
 
         return S, R
 
